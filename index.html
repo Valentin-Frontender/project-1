@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It-incubator precourse</title>
+</head>
+<body>
+    <!-- ЗАДАНИЕ -->
+    <!-- Необходимо создать html-элементы там, где это нужно, в соответствии с правилами семантической разметки -->
+    <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
+
+    <header>
+        <span>IT-INCUBATOR</span>
+    </header>
+
+    <section data-cy="hw1-section-main-pre">
+        <!-- 1) В этом разделе создай 3 дочерних элемента: -->
+
+        <h1>Пчелкин Валентин Александрович</h1>
+        <p>Учусь в IT Incubator, работаю в строительстве, в свободное время катаюсь на скейтборде и играю на гитаре.</p>
+        <img src="Avatar.jpg" alt="">
+    </section>
+
+    <section data-cy="hw1-section-about-pre">
+        <select class="quantity" name="quantity" id="quantity">
+            <option value="1">Oslo</option>
+            <option selected="2">Minsk</option>
+            <option value="3">London</option>
+        </select>
+        <div data-cy="hw1-unordered-list-box-pre">
+            <!-- 3) В этом разделе создай 2 дочерних элемента: -->
+
+            <h2>Любимые страны</h2>
+            <ul>
+                <li>Норвегия</li>
+                <li>Швейцария</li>
+                <li>США</li>
+            </ul>
+        </div>
+        <div data-cy="hw1-ordered-list-box-pre">
+            <!-- 3) В этом разделе создай 2 дочерних элемента: -->
+
+            <h2>Любимые книги</h2>
+            <ol>
+                <li>Робинзон Крузо</li>
+                <li>Гарри Поттер</li>
+                <li>Стивен Кинг</li>
+            </ol>
+        </div>
+        <div data-cy="hw1-skills-box-pre">
+            <h2>Мои скиллы</h2>
+            <input type="checkbox" checked="checkbox">
+            <label for="checkbox">HTML</label>
+            <input type="checkbox" checked="checkbox">
+            <label for="checkbox">CSS</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">JavaScript</label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">React</label>
+            
+        </div>
+        <input name="text" placeholder="Новый скилл"> 
+        <button>Добавить</button>
+        <hr>
+        
+        <table data-cy="hw-about-table-pre">
+            <table border="1">
+            <tbody>
+            <tr>
+                <td>п/п</td>
+                <td>Наименование</td>
+                <td>Количество</td>
+            </tr>
+            </tbody>
+            <tr>
+                <td>1</td>
+                <td>Монитор</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Клавиатура</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Мышь</td>
+                <td>1</td>
+            </tr>
+            <td colspan="2" style="text-align:left">Итого:</td><td>4</td>
+        </=>
+    </section>
+    <footer data-cy="hw-footer-pre">
+        <a href="https://it-incubator.io/">it-incubator</a>
+    </footer>
+</body>
+</html>
