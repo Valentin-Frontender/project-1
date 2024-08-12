@@ -11,13 +11,13 @@
     <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
 
     <header>
-        <h1>IT-INCUBATOR</h1>
+        <span>IT-INCUBATOR</span>
     </header>
 
     <section data-cy="hw1-section-main-pre">
         <!-- 1) В этом разделе создай 3 дочерних элемента: -->
 
-        <span>Пчелкин Валентин Александрович</span>
+        <h1>Пчелкин Валентин Александрович</h1>
         <p>Учусь в IT Incubator, работаю в строительстве, в свободное время катаюсь на скейтборде и играю на гитаре.</p>
         <img src="Avatar.jpg" alt="">
     </section>
@@ -64,36 +64,36 @@
         <button>Добавить</button>
         <hr>
         
-        <table data-cy="hw2-about-table-pre" border="1">
-            <tr>
-                <th>п/п</th>
-                <th>Наименование</th>
-                <th>Количество</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Монитор</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Клавиатура</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Мышь</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td colspan="2">Итого:</td>
-                <td>4</td>
-            </tr>
-        </table>
-        
+        <table data-cy="hw-about-table-pre">
+            <table data-cy="hw2-about-table-pre" border="1">
+                <tr>
+                    <th>п/п</th>
+                    <th>Наименование</th>
+                    <th>Количество</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Монитор</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Клавиатура</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Мышь</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Итого:</td>
+                    <td>4</td>
+                </tr>
+            </table>
     </section>
-    <footer data-cy="hw-footer-pre">
-        <a href="https://it-incubator.io/">it-incubator</a>
+    <footer data-cy="hw-footer-pre"><a href="https://it-incubator.io/">it-incubator</a>
+        
     </footer>
 </body>
 </html>
